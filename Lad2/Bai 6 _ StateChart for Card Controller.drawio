@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+  <diagram name="Page-1" id="35O3oRIyqH3SCpkxia39">
+    <mxGraphModel dx="1244" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0qs02Oo8kRBYoLGKRHzi-1" target="0qs02Oo8kRBYoLGKRHzi-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="0qs02Oo8kRBYoLGKRHzi-3" target="0qs02Oo8kRBYoLGKRHzi-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="0qs02Oo8kRBYoLGKRHzi-3" target="0qs02Oo8kRBYoLGKRHzi-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-3" value="Check card type" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="255" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="0qs02Oo8kRBYoLGKRHzi-4" target="0qs02Oo8kRBYoLGKRHzi-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="0qs02Oo8kRBYoLGKRHzi-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-4" value="Check card with bank consortium" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="580" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-7" value="Reject ( Not valid ATM card )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="268" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-9" value="OK ( is a ATM card )&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-11" value="Reject ( Card issuer bank not in list of bank consortium )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="460" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="320" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0qs02Oo8kRBYoLGKRHzi-14" value="OK ( ATM card Valid )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="508" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
